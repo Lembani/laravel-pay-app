@@ -1,0 +1,22 @@
+{
+  "name": "lembani/money-unify",
+  "description": "A Laravel package for MoneyUnify API",
+  "type": "library",
+  "require": {
+    "php": ">=7.3",
+    "guzzlehttp/guzzle": "^7.0",
+    "laravel/framework": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lembani\\MoneyUnify\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lembani\\MoneyUnify\\MoneyUnifyServiceProvider"
+      ]
+    }
+  }
+}
